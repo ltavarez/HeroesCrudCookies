@@ -68,7 +68,7 @@ $heroes = $service->GetList();
 
                     <div class="card-body">
                         <a href="heroes/edit.php?id=<?= $hero->Id ?>" class="btn btn-primary">Editar</a>
-                        <a href="#" id="btn-delete" data-id="<?= $hero->Id ?>" class="btn btn-danger">Eliminar</a>
+                        <a href="#" data-id="<?= $hero->Id ?>" class="btn btn-danger btn-delete">Eliminar</a>
                     </div>
                 </div>
 
